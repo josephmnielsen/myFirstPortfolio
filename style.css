@@ -14,6 +14,16 @@ h5 {
   text-transform: uppercase;
   font-weight: 900;
 }
+
+@media screen and (max-width: 576px) {
+ }
+ .nav2 {
+   display: inline;
+   margin: 0;
+ }
+
+}
+
 .main1 {
   padding-top: 50px;
 }
@@ -42,11 +52,7 @@ nav ul li a:hover {
   font-weight: 300;
 }
 
-.container {
-    margin-top: 80px;
-  }
-
-  .contact {
+  .container {
     margin-top: 150px;
   }
 
