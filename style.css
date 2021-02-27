@@ -90,3 +90,10 @@ nav ul li a:hover {
   width: 200px;
   margin-left: 50px;
 }
+
+label {
+  float: left;
+  color: #293dbe;
+  text-transform: uppercase;
+  font-size: 15px;
+}
