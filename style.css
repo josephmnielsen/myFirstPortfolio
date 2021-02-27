@@ -1,27 +1,22 @@
-.nav1 {
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
 
-.header1 {
-  font-size: 40px;
+.nav2 {
+  color: #293dbe;
   text-transform: uppercase;
-  font-weight: 900;
-  text-align: left;
+  font-size: 15px;
 }
 
 .header2 {
+  color: #293dbe;
   font-size: 25px;
   text-transform: uppercase;
-  font-weight: 900;
+  
 }
 
 h5 {
+  color: #293dbe;
   font-size: 15px;
   text-transform: uppercase;
-  font-weight: 900;
+  
 }
 
 @media screen and (max-width: 576px) {
@@ -36,7 +31,7 @@ h5 {
 }
 
 .styling {
-  box-shadow: 11px 7px 16px #f9f9f9;
+  box-shadow: 11px 7px 16px #eeeeee;
   border: 0;
   text-align: center;
 }
@@ -53,7 +48,7 @@ nav ul li a:hover {
 
 .about {
   font-size: 16px;
-  font-weight: 300;
+
 }
 
 .container {
@@ -70,4 +65,28 @@ nav ul li a:hover {
 .submit {
   width: 116px;
   float: right;
+}
+
+.p1 {
+  height: 12rem;
+  width: 12rem;
+  margin-left: 50px;
+}
+
+.mainImg {
+  width: 150px;
+  height: 50px;
+}
+
+.p2 {
+  margin-top: 36px;
+  margin-bottom: 36px;
+  height: 120px;
+  width: 275px;
+}
+
+.p3 {
+  height: 200px;
+  width: 200px;
+  margin-left: 50px;
 }
