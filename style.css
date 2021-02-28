@@ -20,9 +20,11 @@ h5 {
 }
 
 @media screen and (max-width: 576px) {
+  
   .nav2 {
-    display: inline;
+    text-align: center;
     margin: 0;
+
   }
   .card {
     margin-left: 40px;
