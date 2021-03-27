@@ -85,9 +85,11 @@ p {
   .timeline ul li:nth-child(odd) {
     float: left;
     clear: right;
-    transform: translateX(-30px);
+    transform: translateX(-50px);
     border-radius: 20px 0px 20px 20px;
+
   }
+}
   .timeline ul li:nth-child(even) {
     float: right;
     clear: left;
@@ -105,11 +107,11 @@ p {
   }
   .timeline ul li:nth-child(odd)::after {
     transform: translate(50%, -50%);
-    right: -15px;
+    right: -34px;
 }
   .timeline ul li:nth-child(even)::after {
     transform: translate(-50%, -50%);
-    left: -45px;
+    left: -46px;
   }
   .timeline ul li:hover::after {
     background-color: #F05742;
