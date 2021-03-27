@@ -12,6 +12,7 @@
   justify-content: center;
   background-color: #f3f0ef;
   float: right;
+
 }
 
 h1 {
@@ -19,6 +20,7 @@ h1 {
 }
 p {
   color: black;
+  margin: 0;
 }
 
 
