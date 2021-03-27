@@ -11,59 +11,68 @@
 </head>
 <body>
   <!-- Begin navbar -->
-  <nav class="navbar navbar-light fixed-top nav1" style="background-color: #ffffff;">
-    <div class="container-fluid">
-      <a class="navbar-brand header1" href="./index.html" style="color:white"><img src="./images/logo.png" class="mainImg"></a>
-      <ul class="nav justify-content-end nav2">
-        <li class="nav-item nav2">
-          <a class="nav-link nav2" href="./index.html">About</a>
-        </li>
-        <li class="nav-item nav2">
-          <a class="nav-link nav2" href="./portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item nav2">
-          <a class="nav-link nav2" href="./contact.html" tabindex="-1" aria-disabled="true">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+<nav class="navbar navbar-light fixed-top nav1">
+  <div class="container-fluid">
+    <a class="navbar-brand header1" href="./index.html"><img src="./images/fourLogo.png" class="mainImg"></a>
+    <ul class="nav justify-content-end nav2">
+      <li class="nav-item nav2">
+        <a class="nav-link nav2" href="./index.html">About</a>
+      </li>
+      <li class="nav-item nav2">
+        <a class="nav-link nav2" href="./portfolio.html">Portfolio</a>
+      </li>
+      <li class="nav-item nav2">
+        <a class="nav-link nav2" href="./contact.html" tabindex="-1" aria-disabled="true">Contact</a>
+      </li>
+      <li>
+        <a href="https://github.com/josephmnielsen" target="_blank"><img src="./images/github.jpeg" class="smIcons"></a>
+        <a href="https://www.instagram.com/josephmnielsen/" target="_blank"><img
+            src="./images/iconfinder_1_Instagram_colored_svg_1_5296765.png" class="smIcons"></a>
+        <a href="https://www.linkedin.com/in/josephmnielsen/" target="_blank"><img
+            src="./images/iconfinder_1_Linkedin_unofficial_colored_svg_5296501.png" class="smIcons"></a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
   <!-- End navbar -->
 
   <!-- Begin grid container -->
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-4">
+  
+  <div class="row">
+    <div class="col-sm-5 sideLeft"></div>
+      <div class="col-sm-7 cardStart">
         <!-- Begin cards -->
-        <div class="card styling" style="width: 18rem;">
-          <img src="./images/covid-resource-logo.png" class="card-img-top p1" alt="Covid resource logo">
-          <div class="card-body">
-            <h5 class="card-title">Covid Resource Project</h5>
-            <p class="card-text about">The Covid Resource Project aims to provide users with current statistics as well as a map to their nearest testing locations with clickable links for directions.
-            </p>
-            <a href="https://caroltn.github.io/covid-resource/" class="btn btn-success">Project 1</a>
+        <div class="row">
+
+          <div class="col-sm-2 card styling" style="width: 15rem;">
+            <img src="./images/freeMarketLogo.png" class="card-img-top p1" alt="stock photo">
+            <div class="card-body">
+              <h5 class="card-title folio">Free Market</h5>
+              <p class="card-text about">This is a full stack p2p app where users can register/sign-in using a secure login and view/create listings for valuable items they wish to part with.
+              </p>
+              <a href="https://secret-coast-26178.herokuapp.com/" target="_blank" class="btn ripple">Take a look</a>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="card styling" style="width: 18rem;">
-          <img src="./images/weatherD.png" class="card-img-top p2" alt="Weather Dashboard">
-          <div class="card-body">
-            <h5 class="card-title">Weather Dashboard</h5>
-            <p class="card-text about">This app allows users to search for real-time weather around the globe. A city search will reveal both current weather as well as a five-day forecast.
-            </p>
-            <a href="https://josephmnielsen.github.io/weatherApp/" class="btn btn-info">Project 2</a>
+
+          <div class="col-sm-2 card styling" style="width: 15rem;">
+            <img src="./images/covid-resource-logo.png" class="card-img-top p2" alt="Covid resource logo">
+            <div class="card-body">
+              <h5 class="card-title folio">Covid Resource</h5>
+              <p class="card-text about">The Covid Resource Project aims to provide users with current statistics as well as a map to their nearest testing locations with clickable links for directions.
+              </p>
+              <a href="https://josephmnielsen.github.io/covid-resource/" target="_blank" class="btn ripple">Take a look</a>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="card styling" style="width: 18rem;">
-          <img src="./images/dayPlanner.png" class="card-img-top p3" alt="stock photo">
-          <div class="card-body">
-            <h5 class="card-title">Day Planner</h5>
-            <p class="card-text about">This app allows users to enter and store data into a weekly planner which displays current time and color-blocks the agenda according to time of day.
-            </p>
-            <a href="https://josephmnielsen.github.io/dayPlanner/" class="btn btn-danger">Project 3</a>
+          
+          <div class=" col-sm-2 card styling" style="width: 15rem;">
+            <img src="./images/weatherD.png" class="card-img-top p3" alt="Weather Dashboard">
+            <div class="card-body">
+              <h5 class="card-title folio">Weather Dashboard</h5>
+              <p class="card-text about">This app allows users to search for real-time weather around the globe. A city search will reveal both current weather as well as a five-day forecast.
+              </p>
+              <a href="https://josephmnielsen.github.io/weatherApp/" target="_blank" class="btn ripple" >Take a look</a>
+            </div>
           </div>
         </div>
       </div>
@@ -71,7 +80,6 @@
     
       <!-- End cards -->
     </div>
-  </div>
   <!-- End grid container -->
   <!-- Begin Java script -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
