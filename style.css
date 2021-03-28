@@ -10,8 +10,14 @@ body {
   background-color: transparent;
 }
 
-.nav2 {
+.onPage {
   color: #F05742;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.nav2 {
+  color: #bebaba;
   text-transform: uppercase;
   font-size: 15px;
 }
@@ -53,6 +59,7 @@ h5 {
   border: 0;
   text-align: left;
 }
+
 .ctag {
   margin-top: 10px;
 }
