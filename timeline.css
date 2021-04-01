@@ -12,17 +12,16 @@
   justify-content: center;
   background-color: #f3f0ef;
   float: right;
-
 }
 
 h1 {
-  color: #F05742;
+  color: #F68338;
 }
+
 p {
   color: black;
   margin: 0;
 }
-
 
 .timeline {
   width: 80%;
@@ -92,13 +91,11 @@ p {
     transform: translateX(11px);
     border-radius: 20px 0px 20px 20px;
   }
-
   .timeline ul li:nth-child(even) {
     float: right;
     clear: left;
     transform: translateX(-30px);
     border-radius: 0px 20px 20px 20px;
-
   }
   .timeline ul li::after {
     content: '';
@@ -118,7 +115,7 @@ p {
     left: -46px;
   }
   .timeline ul li:hover::after {
-    background-color: #F05742;
+    background-color: #F68338;
   }
   .timeline-content .date {
     position: absolute;
