@@ -11,7 +11,7 @@ body {
 }
 
 .onPage {
-  color: #F05742;
+  color: #F68338;
   text-transform: uppercase;
   font-size: 15px;
 }
@@ -23,19 +23,63 @@ body {
 }
 
 .header2 {
-  color: #F05742;
+  color: #F68338;
   font-size: 15px;
   text-transform: uppercase;
 }
 
 h5 {
-  color: #F05742;
+  color: #F68338;
   font-size: 15px;
   text-transform: uppercase;
 }
 
 .cardStart {
   margin-top: 100px;
+}
+
+.image {
+  position: relative;
+  width: 350px;
+  height: 200px;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.pImages {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #F68338;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.overlay>* {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.overlay:hover {
+  opacity: 0.8;
+}
+
+.overlay:hover>* {
+  transform: translate(0);
 }
 
 @media screen and (max-width: 576px) {
@@ -89,7 +133,7 @@ h5 {
 }
 
 .btn {
-  background-color: #F05742;
+  background-color: #F68338;
   color: #ffffff;
 }
 
@@ -104,7 +148,7 @@ h5 {
 } */
 
 nav ul li a:hover {
-  color: #F05742;
+  color: #F68338;
   text-decoration: underline;
 }
 
@@ -135,7 +179,7 @@ nav ul li a:hover {
 
 label {
   float: left;
-  color: #F05742;
+  color: #F68338;
   text-transform: uppercase;
   font-size: 15px;
 }
