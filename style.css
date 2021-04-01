@@ -66,12 +66,12 @@ h5 {
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transition: opacity 0.25s;
+  transition: opacity 0.5s;
 }
 
 .overlay>* {
   transform: translateY(20px);
-  transition: transform 0.25s;
+  transition: transform 0.5s;
 }
 
 .overlay:hover {
