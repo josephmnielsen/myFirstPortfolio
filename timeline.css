@@ -32,7 +32,6 @@ p {
   height: 500px;
   overflow: scroll;
   overflow-x: visible;
-  over
 }
 
 .timeline ul {
@@ -88,15 +87,19 @@ p {
   .timeline ul li:nth-child(odd) {
     float: left;
     clear: right;
-    transform: translateX(11px);
+    transform: translateX(2px);
     border-radius: 20px 0px 20px 20px;
   }
   .timeline ul li:nth-child(even) {
     float: right;
     clear: left;
-    transform: translateX(-30px);
+    transform: translateX(-21px);
     border-radius: 0px 20px 20px 20px;
-  }
+    -webkit-transform: translateX(-21px);
+    -moz-transform: translateX(-21px);
+    -ms-transform: translateX(-21px);
+    -o-transform: translateX(-21px);
+}
   .timeline ul li::after {
     content: '';
     position: absolute;
