@@ -83,13 +83,56 @@ h5 {
 }
 
 @media screen and (max-width: 576px) {
-  .nav2 {
-    text-align: center;
-    margin: 0;
+
+  .header1 {
+    margin-left: 150px;
+    margin-top: 0;
+    
   }
-  .card {
-    margin-left: 40px;
-    margin-bottom: 10px;
+
+  img {
+    display: inline-flex;
+    margin-top: 10px;
+
+  }
+
+  .cardStart {
+    margin-top: 250px;
+  }
+
+  .contact2 {
+    margin-top: 150px;
+  }
+
+
+  ul {
+    width: 40px;
+    display: flex;
+
+  }
+
+  nav {
+    position: fixed-top;
+  }
+  .styling {
+    margin-top: 150px;
+  }
+
+  .skills {
+    margin-top: 150px;
+    width: 100%;
+    float: none;
+  }
+  .timeline ul {
+    flex-direction: column;
+    width: 100%;
+    float: none;
+  }
+
+
+  .container {
+    flex-direction: column;
+    width: 100%;
   }
 }
 
