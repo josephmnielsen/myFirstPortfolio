@@ -2,7 +2,8 @@ body {
   background-image: url(./images/zurich.JPG);
   background-size: 40%;
   background-repeat: no-repeat;
-  background-color: #f3f0ef;
+  background-color: rgb(244, 241, 241);
+  font-family: 'Rambla', sans-serif;
 }
 
 .nav1 {
@@ -22,16 +23,44 @@ body {
   font-size: 15px;
 }
 
+.r1 {
+  margin-left: 100px;
+}
+
+.r2 {
+  padding-bottom: 20px;
+  margin-left: 100px;
+}
+
 .header2 {
   color: #F68338;
   font-size: 15px;
   text-transform: uppercase;
 }
 
+h1 {
+  color: black;
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+}
+
+h6 {
+  color: #F68338;
+  font-size: 12px;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  font-family: 'Oswald', sans-serif;
+}
+
 h5 {
   color: #F68338;
   font-size: 15px;
   text-transform: uppercase;
+}
+
+ul {
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
 }
 
 .cardStart {
@@ -83,41 +112,30 @@ h5 {
 }
 
 @media screen and (max-width: 576px) {
-
   .header1 {
     margin-left: 150px;
     margin-top: 0;
-    
   }
-
   img {
     display: inline-flex;
     margin-top: 10px;
-
   }
-
   .cardStart {
     margin-top: 250px;
   }
-
   .contact2 {
     margin-top: 150px;
   }
-
-
   ul {
     width: 40px;
     display: flex;
-
   }
-
   nav {
     position: fixed-top;
   }
   .styling {
     margin-top: 150px;
   }
-
   .skills {
     margin-top: 150px;
     width: 100%;
@@ -128,8 +146,6 @@ h5 {
     width: 100%;
     float: none;
   }
-
-
   .container {
     flex-direction: column;
     width: 100%;
@@ -149,30 +165,6 @@ h5 {
 
 .ctag {
   margin-top: 10px;
-}
-
-.p2 {
-  margin-top: 20px;
-  margin-left: 50px;
-  margin-bottom: 20px;
-  height: auto;
-  width: 100px;
-}
-
-.p1 {
-  margin-top: 60px;
-  margin-bottom: 20px;
-  margin-left: 30px;
-  height: auto;
-  width: 150px;
-}
-
-.p3 {
-  margin-top: 60px;
-  margin-bottom: 40px;
-  margin-left: 30px;
-  height: auto;
-  width: 150px;
 }
 
 .btn {
@@ -196,6 +188,7 @@ nav ul li a:hover {
 }
 
 .about {
+  padding: 20px;
   font-size: 15px;
 }
 

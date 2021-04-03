@@ -14,7 +14,8 @@
   float: right;
 }
 
-h1 {
+h2 {
+  font-size: 20px;
   color: #F68338;
 }
 
@@ -24,7 +25,7 @@ p {
 }
 
 .timeline {
-  width: 80%;
+  width: 100%;
   height: auto;
   margin: 0;
   padding-top: 30px;
@@ -87,19 +88,15 @@ p {
   .timeline ul li:nth-child(odd) {
     float: left;
     clear: right;
-    transform: translateX(2px);
+    transform: translateX(-6px);
     border-radius: 20px 0px 20px 20px;
   }
   .timeline ul li:nth-child(even) {
     float: right;
     clear: left;
-    transform: translateX(-21px);
+    transform: translateX(-15px);
     border-radius: 0px 20px 20px 20px;
-    -webkit-transform: translateX(-21px);
-    -moz-transform: translateX(-21px);
-    -ms-transform: translateX(-21px);
-    -o-transform: translateX(-21px);
-}
+  }
   .timeline ul li::after {
     content: '';
     position: absolute;
